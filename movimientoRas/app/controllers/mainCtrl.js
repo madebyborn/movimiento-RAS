@@ -7,8 +7,5 @@ mainController.$inject = ['$rootScope', '$location', '$route']
 function mainController($rootScope, $location, $route, $mdSidenav) {
   var vm = this;
 
-
-  $(document).ready(function() {
-    $.material.init();
-  });
+  
 }
