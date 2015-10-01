@@ -3,7 +3,6 @@ angular.module('movimientoRasApp', [
   'app.core',
 
   /* app files */
-  'app.config',
   'app.routes',
   'mainCtrl'
 ]);
