@@ -3,3 +3,64 @@ layout: default
 title: Conocenos
 permalink: /conocenos/
 ---
+
+<header id="index-header" class="header">
+  <div class="container">
+    <div class="row">
+      ...header...
+    </div>
+  </div>
+</header>
+
+<section id="section__historia" class="container text-center">
+  <div class="row">
+    <div class="col-xs-12 col-sm-8 col-sm-offset-2">
+      <h1>Historia</h1>
+      <p>Creado por la sonorense Claudia Téllez, en septiembre de 2008, para beneficiar a pequeños que día a día luchan ante una enfermedad que no conoce fronteras, clase social, sexo o religión: El cáncer.</p>
+      <p>En Movimiento RAS creemos que el recurso económico no debe ni puede ser impedimento para que los niños son- orenses que luchan contra el cáncer gocen de una recu- peración completa sin privarse de lo que más necesitan en este proceso: Amor, comprensión, alimentación e impulso.</p>
+      <p>En sus cinco años de fundación ha hospedado a más de 200 pequeños provenientes de las diferentes localidades del Estado, enfocándose principalmente en aquellos infan- tes que, por su condición de vulnerabilidad, podrían dejar su tratamiento inconcluso teniendo fatales consecuencias.</p>
+      <p>Pequeños de localidades como Mochibampo, Masiáca, Quechehueca, Tobarito, Miguel Alemán, Pesqueira, Campo 60, Pico de Palo y de ciudades hermanas como Álamos Navojoa, Ciudad Obregón, Empalme, Guaymas, Hermosillo, Puerto Peñasco, San Luis Río Colorado, Nogales, Ímuris, Agua Prieta etc... encontraron en el albergue un hogar lleno de amor y un espacio adecuado a sus necesidades sin costo alguno donde, junto a un familiar, pueden descansar sin ninguna restricción.</p>
+      <a href="/conocenos" class="btn btn-lg">Donar</a>
+    </div>
+  </div>
+</section>
+
+<section id="section__mision" class="container text-center">
+  <div class="row">
+    <div class="col-xs-12 col-sm-8 col-sm-offset-2">
+      <h1>Misión</h1>
+      <p>
+        Consolidar el mejor albergue para niños con cáncer del Estado de Sonora, creando un hogar fuera de su propio hogar a los pequeños y sus familias.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section id="section__vision" class="container text-center">
+  <div class="row">
+    <div class="col-xs-12 col-sm-8 col-sm-offset-2">
+      <h1>Visión</h1>
+      <p>
+        Proporcionar protección trascendente en el tiempo y construir un proyecto en términos de beneficios de calidad de vida a los niños y adolescentes con cáncer del Estado de Sonora.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section id="section__objetivo" class="container text-center">
+  <div class="row">
+    <div class="col-xs-12 col-sm-8 col-sm-offset-2">
+      <h1>Objetivo</h1>
+      <p>
+        Tener la capacidad de albergar a niños de todo el Estado de Sonora, ofreciendo un lugar tranquilo y óptimo para su pronta recuperación que garantice al pequeño y su familia:
+      </p>
+      <ul class="text-left">
+        {% for o in site.data.objectives %}
+        <li>
+          <span class="h5">{{o.objective}}</span> {{o.description}}
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</section>
