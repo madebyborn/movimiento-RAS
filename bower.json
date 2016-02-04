@@ -1,0 +1,22 @@
+{
+  "name": "movimiento-RAS",
+  "homepage": "https://github.com/madebyborn/movimiento-RAS",
+  "authors": [
+    "dancmj <daniel.c82@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "assets/libs",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6"
+  }
+}
