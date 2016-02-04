@@ -1,38 +1,47 @@
-<footer class="site-footer">
-
-  <div class="wrapper">
-
-    <h2 class="footer-heading">{{ site.title }}</h2>
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li>{{ site.title }}</li>
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-2">
-        <ul class="social-media-list">
-          {% if site.github_username %}
-          <li>
-            {% include icon-github.html username=site.github_username %}
-          </li>
-          {% endif %}
-
-          {% if site.twitter_username %}
-          <li>
-            {% include icon-twitter.html username=site.twitter_username %}
-          </li>
-          {% endif %}
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-3">
-        <p>{{ site.description }}</p>
-      </div>
+<section id="contact" class="container">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 text-center">
+      <h1>Contacto</h1>
     </div>
-
   </div>
 
+  <div class="row">
+    <div class="col-sm-8 text-left col-sm-offset-2">
+      <h3>Movimiento RAS I.A.P</h3>
+      <p>
+        Victoria López Carrillo 6623&#8209;27&#8209;00&#8209;40
+        <br> Yliana Zavalza Esquivel 6621&#8209;05&#8209;08&#8209;08
+      </p>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-sm-4 text-left col-sm-offset-2">
+      <p>
+        Administración y Vinculación.
+        <br>Tel. 6623&#8209;02&#8209;60&#8209;54
+        <br id="tmp">
+        <a class="mail-to" href="mailto:movimientoras@hotmail.com">¡Mandanos un correo!</a>
+      </p>
+    </div>
+    <div class="col-sm-4 text-right">
+      <p>
+        Sufragio&nbsp;Efectivo&nbsp;&#35;47 esquina&nbsp;con&nbsp;Espridión
+        <br>Col.&nbsp;Villa&nbsp;de&nbsp;Seris
+        <br>Hermosillo,&nbsp;Sonora.
+      </p>
+    </div>
+  </div>
+</section>
+
+<footer class="container text-center footer">
+    <div class="row">
+      <div class="col-lg-4 text-center col-lg-offset-4">
+        Todos los derechos reservados. Movimiento RAS I.A.P
+      </div>
+    </div>
 </footer>
+
+<script>
+  document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')
+</script>
