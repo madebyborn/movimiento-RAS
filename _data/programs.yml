@@ -1,26 +1,26 @@
 - one:
     title: Asistencial
     text: En el albergue se brinda el apoyo a toda la familia que tiene un niño con cáncer
-    svg: asistencial
+    svg: 1_asistencial
   two:
     title: Una comida con amor
     text: Llevar una comida diaria a los padres de los niños internados en el HIES
-    svg: con_amor
+    svg: 2_con_amor
 
 - one:
     title: Un pasaje... una vida
     text: Otorgar el pasaje al niño y a su acompañante, y asegurar el regreso del pequeño a su próxima cita
-    svg: pasaje
+    svg: 3_pasaje
   two:
     title: Entregas
     text: Se apoya al padre con suplemento alimenticio PediaSure, despensa y artículos varios
-    svg: entrega
+    svg: 4_entrega
 
 - one:
     title: Abrazando un ángel
     text: Otorgar el pago total de las defunciones y traslados al lugar de origen cuando uno de nuestros pequeños fallece
-    svg: angel
+    svg: 5_angel
   two:
     title: Otros
     text: Otorgar prótesis o pagos a estudios fuera de la ciudad de Hermosillo
-    svg: otros
+    svg: 6_otros
