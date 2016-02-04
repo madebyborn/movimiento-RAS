@@ -2,4 +2,82 @@
 layout: default
 title: Inicio
 permalink: /
+
+bg_img: ras
 ---
+
+<header id="index-header" class="header">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-8 col-xs-offset-2 col-sm-7 col-sm-offset-1 col-md-6">
+        <h1 class="">Nuestra Fundación</h1>
+        <p class="">
+          Se dedica a ayudar a pequeños que luchan día a día contra el cáncer, una enfermedad que no conoce fronteras.
+        </p>
+        <a href="" class="btn btn-lg"> Donar </a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section id="section__movimiento" class="container text-center">
+  <div class="row">
+    <div class="col-sm-8 col-sm-offset-2 col-lg-6 col-lg-offset-3">
+      <h1 class="">Movimiento RAS</h1>
+      <p class="">
+        Fundado el 2 de septiembre del 2008.<br>
+        Nace para beneficiar a pequeños que día a día luchan contra el cáncer, una enfermedad que no conoce fronteras, clase social, sexo o religión.
+      </p>
+      <a href="/conocenos" class="btn btn-lg">Conoce más</a>
+    </div>
+  </div>
+</section>
+
+<section id="section__programas" class="container text-center">
+  <div class="row">
+    <div class="col-sm-8 col-sm-offset-2">
+      <h1 id="mov_ras_title">Programas</h1>
+    </div>
+  </div>
+
+  {% for p in site.data.programs %}
+  <div class="row">
+    <div class="col-xs-12 col-sm-4 col-sm-offset-2 col-md-4 col-md-offset-2">
+      <div class="">
+        <img src="img/svg/{{p.one.svg}}.svg" class=""/>
+      </div>
+      <div class="">
+        <h4 class="">{{p.one.title}}:</h4>
+        <p>{{p.one.text}}.</p>
+      </div>
+    </div>
+    <div class="col-sm-4 col-xs-12 col-md-4">
+      <div class="">
+        <img src="img/svg/{{p.two.svg}}.svg" class="">
+      </div>
+      <div class="">
+        <h4 class="">{{p.two.title}}:</h4>
+        <p>{{p.two.text}}.</p>
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+</section>
+
+<section id="section__about" class="container text-center">
+  <div class="row">
+    <div class="col-xs-12 col-sm-8 col-sm-offset-2">
+      <p>
+        Considerados en Sonora como el único albergue de iniciativa privada, Movimiento RAS da amor y calidez a niños detodo el estado.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section id="section__cooperason" class="container text-center">
+  <div class="row">
+    <div class="col-xs-12 col-sm-8 col-sm-offset-2">
+      <img src="img/svg/cooperason.svg" class=""/>
+    </div>
+  </div>
+</section>
