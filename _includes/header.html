@@ -1,4 +1,4 @@
-<nav class="navbar navbar-fixed-top">
+<nav class="navbar navbar-custom navbar-fixed-top">
   <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
@@ -7,8 +7,8 @@
       <a class="navbar-brand" href="/">{{site.title}}</a>
     </div>
 
-    <div class="collapse navbar-collapse" id="navbar">
-      <ul class="nav navbar-nav navbar-right">
+    <div class="collapse navbar-collapse navbar-right navbar-main-collapse white-fade" id="navbar">
+      <ul class="nav navbar-nav">
         {% for my_page in site.pages %}
           {% if my_page.title %}
           <li>

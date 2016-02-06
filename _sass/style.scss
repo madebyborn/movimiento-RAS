@@ -1,6 +1,8 @@
 body {
   width: 100%;
   height: 100%;
+  font-family: 'Open Sans', sans-serif;
+
 }
 
 html {
@@ -15,7 +17,6 @@ section#footer {
   background: url(/assets/img/footer.png) no-repeat scroll;
   word-break: keep-all;
 
-  background-color: #000;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -107,12 +108,29 @@ section#footer {
     text-align: center;
   }
 
+  .header {
+    height: 456px;
+  }
+
   .navbar-toggle * {
     display: block;
   }
+
+  #index-header {
+    padding-bottom: 4em;
+  }
+
+  #section__about {
+    padding-top: 3em;
+    padding-bottom: 3em;
+  }
+
+  .monito {
+    visibility: hidden;
+  }
 }
 /* Small devices (tablets, 768px and up) */
-@media (min-width: 768px) {
+@media (min-width: 769px) {
   .header {
     height: 100%;
     padding: 0;
@@ -127,4 +145,188 @@ section#footer {
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
 
+}
+
+#section__movimiento, #section__historia {
+  padding-bottom: 3em;
+  padding-top:    3em;
+  width: 100%;
+  background-color: #F8F18F;
+}
+
+#section__about, #section__mision, #section__vision, #section__recuerda {
+  padding-bottom: 5em;
+  padding-top:    5em;
+  background: url(/assets/img/patterns/pattern-blue.svg) no-repeat bottom center scroll;
+  display: table;
+  width: 100%;
+  height: auto;
+  background-color: #fff;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+#section__vision {
+  padding-bottom: 5em;
+  padding-top:    5em;
+  background: url(/assets/img/patterns/pattern-pink.svg) no-repeat bottom center scroll;
+  display: table;
+  width: 100%;
+  height: auto;
+  background-color: #fff;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+#section__cooperason, #section__objetivo {
+  padding-top:    5em;
+  padding-bottom: 5em;
+}
+
+#footer {
+  padding-top:    10em;
+  padding-bottom:    5em;
+}
+
+#section__como-donar {
+  width: 100%;
+  background-color: #be1e2d;
+}
+
+
+.navbar-custom {
+  /*  Collapsed Navbar  */
+
+  margin-bottom: 0;
+  border-bottom: 1px solid rgba(255, 255, 255, .3);
+  /*    text-transform: uppercase;*/
+
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #ed5ea1;
+}
+
+.navbar-custom .navbar-brand {
+  font-weight: 700;
+}
+
+.navbar-custom .navbar-brand:focus {
+  outline: 0;
+}
+
+.navbar-custom .navbar-brand .navbar-toggle {
+  padding: 4px 6px;
+  font-size: 16px;
+  color: #fff;
+}
+
+.navbar-custom .navbar-brand .navbar-toggle:focus,
+.navbar-custom .navbar-brand .navbar-toggle:active {
+  outline: 0;
+}
+
+.navbar-custom a {
+  color: #fff;
+}
+
+.navbar-custom .nav li.active {
+  outline: nonte;
+  background-color: rgba(255, 255, 255, .3);
+}
+
+.navbar-custom .nav li a {
+  -webkit-transition: background .3s ease-in-out;
+  -moz-transition: background .3s ease-in-out;
+  transition: background .3s ease-in-out;
+}
+
+.navbar-custom .nav li a:hover,
+.navbar-custom .nav li a:focus,
+.navbar-custom .nav li a.active {
+  outline: 0;
+  background-color: rgba(255, 255, 255, .3);
+}
+
+@media(min-width:767px) {
+  .navbar {
+    padding: 20px 0;
+    border-bottom: 0;
+    letter-spacing: 1px;
+    background: 0 0;
+    -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
+    -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
+    transition: background .5s ease-in-out, padding .5s ease-in-out;
+  }
+  .top-nav-collapse {
+    padding: 0;
+    background-color: #ed5ea1;
+  }
+  .navbar-custom.top-nav-collapse {
+    border-bottom: 1px solid rgba(255, 255, 255, .3);
+  }
+}
+
+#navbar {
+  -webkit-transition: background-color .3s ease-in-out;
+  -moz-transition: background-color .3s ease-in-out;
+  transition: background-color .3s ease-in-out;
+}
+
+.white-fade {
+  background-color: rgba(74, 74, 74, 0.23);
+}
+
+.nice-dude-banner {
+  color: white;
+  font-size: 1.7em;
+  font-weight: 300;
+  word-wrap: normal;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.4;
+}
+
+
+@media (max-width: 768px) {
+  header, section#contact * {
+    text-align: center;
+  }
+
+  .header {
+    height: 456px;
+  }
+
+  .navbar-toggle * {
+    display: block;
+  }
+
+  #index-header {
+    padding-bottom: 4em;
+  }
+
+  #section__about, #section__recuerda, #section__vision, #section__mision {
+    padding-top: 3em;
+    padding-bottom: 3em;
+  }
+}
+
+.monito {
+  position: relative;
+}
+
+#monito-izq {
+  position: absolute;
+  top: -3.8em;
+  left: -4em;
+  float: left;
+  transform: rotate(11deg);
+}
+
+#monito-der {
+  float: right;
+  position: absolute;
+  right: -3em;
+  bottom: -4.4em;
 }
