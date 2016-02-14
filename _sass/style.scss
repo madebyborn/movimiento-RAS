@@ -129,23 +129,6 @@ section#footer {
     visibility: hidden;
   }
 }
-/* Small devices (tablets, 768px and up) */
-@media (min-width: 769px) {
-  .header {
-    height: 100%;
-    padding: 0;
-  }
-}
-
-/* Medium devices (desktops, 992px and up) */
-@media (min-width: 992px) {
-
-}
-
-/* Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-
-}
 
 #section__movimiento, #section__historia {
   padding-bottom: 3em;
@@ -328,4 +311,22 @@ section#footer {
     padding-top: 3em;
     padding-bottom: 3em;
   }
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 769px) {
+  .header {
+    height: 100%;
+    padding: 0;
+  }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
 }
